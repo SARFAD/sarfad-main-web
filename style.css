@@ -104,6 +104,13 @@
 .pic{
     margin-top: 1em;
 }
+.pic img{
+    width: 80%;
+    height: 15em;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 2%;
+}
 .info h3{
     color: #fff;
     font-size: 1.25rem;
@@ -128,9 +135,8 @@
 .icons a:hover{
     color: #fff;
 }
-.pic img{
-    width: 80%;
-    height: 80%;
+.primary-mission{
+    margin-bottom: 2em;
 }
 .spons-text{
     color: #fff;
@@ -195,6 +201,14 @@
         background-color: #181A26;
         font-family: 'Open Sans Condensed', sans-serif;
     }
+    .pic img{
+        width: 80%;
+        height: 18em;
+        object-fit: cover;
+        object-position: top;
+        border: none;
+        border-radius: 2%;
+    }
     .info span{
         color: #EBC340;
         font-size: 1rem;
@@ -231,21 +245,29 @@
             text-decoration: none;
             border-radius: 0.25em;
         }
-            .card{
-                height: 60%;
-                width: 25%;
-                margin: 0.75em;
-                box-shadow: 0 3px 5px #000;
-                border-radius: 0.5em;
-                overflow: hidden;
-                text-align: center;
-                background-color: #181A26;
-                font-family: 'Open Sans Condensed', sans-serif;
-            }
-            .social-media{
-                text-align: center;
-                font-size: 3rem;
-            }
+        .card{
+            height: 60%;
+            width: 25%;
+            margin: 0.75em;
+            box-shadow: 0 3px 5px #000;
+            border-radius: 0.5em;
+            overflow: hidden;
+            text-align: center;
+            background-color: #181A26;
+            font-family: 'Open Sans Condensed', sans-serif;
+        }
+        .pic img{
+            width: 80%;
+            height: 12em;
+            object-fit: cover;
+            object-position: top;
+            border: none;
+            border-radius: 2%;
+        }
+        .social-media{
+            text-align: center;
+            font-size: 3rem;
+        }
 }
   @media all and (max-width: 480px){
     .card{
@@ -258,6 +280,14 @@
         text-align: center;
         background-color: #181A26;
         font-family: 'Open Sans Condensed', sans-serif;
+    }
+    .pic img{
+        width: 80%;
+        height: 20em;
+        object-fit: cover;
+        object-position: top;
+        border: none;
+        border-radius: 2%;
     }
     .logo{
         width: 6em;
@@ -329,4 +359,3 @@
             margin: 1em 0;
         }
 }
-/**Safrad
